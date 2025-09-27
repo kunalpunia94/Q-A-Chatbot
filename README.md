@@ -42,4 +42,3 @@ The application utilizes high-performance models available on the Groq platform,
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/kunalpunia94/Q-A-Chatbot
-cd Q-A-Chatbot
