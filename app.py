@@ -50,9 +50,9 @@ api_key = st.sidebar.text_input("Enter your Groq API Key:", type="password")
 engine = st.sidebar.selectbox(
     "Select Groq Model",
     [
-        "mixtral-8x7b-32768",
+        "llama-3.1-8b-instant",
         "gemma2-9b-it",
-        "llama3-8b-8192"
+        "llama-3.3-70b-versatile"
     ],
     index=1 
 )
@@ -71,3 +71,4 @@ elif user_input:
     st.warning("Please enter the Groq API Key in the side bar.")
 else:
     st.info("Start the conversation above to see the results.")
+
